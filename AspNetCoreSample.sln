@@ -7,17 +7,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B7D77A6A-4DD
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{6194C55A-F09B-4CE1-AFD9-1A2EA7800C8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreSample.Core", "AspNetCoreSample.Core\AspNetCoreSample.Core.csproj", "{0BB4632B-0441-41C1-8B22-14F8CFBE9DA5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreSample.Core", "src\AspNetCoreSample.Core\AspNetCoreSample.Core.csproj", "{0BB4632B-0441-41C1-8B22-14F8CFBE9DA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreSample.Infrastructure", "AspNetCoreSample.Infrastructure\AspNetCoreSample.Infrastructure.csproj", "{C4A12E52-1DFA-47EB-ACDE-A88F868E54BF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreSample.Infrastructure", "src\AspNetCoreSample.Infrastructure\AspNetCoreSample.Infrastructure.csproj", "{C4A12E52-1DFA-47EB-ACDE-A88F868E54BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreSample.Application", "AspNetCoreSample.Application\AspNetCoreSample.Application.csproj", "{EA230EAD-4544-486D-BE82-F747039225E5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreSample.Application", "src\AspNetCoreSample.Application\AspNetCoreSample.Application.csproj", "{EA230EAD-4544-486D-BE82-F747039225E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreSample.Web", "AspNetCoreSample.Web\AspNetCoreSample.Web.csproj", "{66FB5A24-CE50-416D-BC27-70BD6390B255}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreSample.Web", "src\AspNetCoreSample.Web\AspNetCoreSample.Web.csproj", "{66FB5A24-CE50-416D-BC27-70BD6390B255}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreSample.Application.Tests", "AspNetCoreSample.Application.Tests\AspNetCoreSample.Application.Tests.csproj", "{4DDF7EB9-810F-4D88-B959-7EBCF9400666}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreSample.Application.Tests", "test\AspNetCoreSample.Application.Tests\AspNetCoreSample.Application.Tests.csproj", "{4DDF7EB9-810F-4D88-B959-7EBCF9400666}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreSample.Infrastructure.Tests", "AspNetCoreSample.Infrastructure.Tests\AspNetCoreSample.Infrastructure.Tests.csproj", "{5F53A19D-BA56-4DBE-B45E-5E6F0B4F1BB6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreSample.Infrastructure.Tests", "test\AspNetCoreSample.Infrastructure.Tests\AspNetCoreSample.Infrastructure.Tests.csproj", "{5F53A19D-BA56-4DBE-B45E-5E6F0B4F1BB6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

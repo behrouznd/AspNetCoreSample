@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.11.0" />
+    <PackageReference Include="Moq" Version="4.18.1" />
     <PackageReference Include="xunit" Version="2.4.1" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.3">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -21,8 +22,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AspNetCoreSample.Core\AspNetCoreSample.Core.csproj" />
-    <ProjectReference Include="..\AspNetCoreSample.Infrastructure\AspNetCoreSample.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\src\AspNetCoreSample.Application\AspNetCoreSample.Application.csproj" />
+    <ProjectReference Include="..\..\src\AspNetCoreSample.Core\AspNetCoreSample.Core.csproj" />
+    <ProjectReference Include="..\..\src\AspNetCoreSample.Infrastructure\AspNetCoreSample.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
